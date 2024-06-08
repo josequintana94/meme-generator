@@ -5,7 +5,7 @@ export const initialState:IinitialStateProps = {
   topText: "Top Image Text ... ",
   bottomText: "Bottom Image Text ...",    
   previewImage: "", 
-  backgroundImage:"https://3.bp.blogspot.com/-3o7VZ79X9B4/UaWHC07l53I/AAAAAAAAA-c/RD922mGI89o/s400/GATO+CON+LENTES.jpg",
+  backgroundImage:"/10guylogo.jpg",
   fontSize: "40",
   fontColor:"#e7136f",
   fontName:"14", 
