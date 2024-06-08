@@ -2,13 +2,13 @@ import {MemeAction} from "../enum";
 import {IinitialStateProps} from "../interface";
 
 export const initialState:IinitialStateProps = {
-  topText: "Top Image Text ... ",
-  bottomText: "Bottom Image Text ...",    
+  topText: "TOP IMAGE TEXT",
+  bottomText: "BOTTOM IMAGE TEXT",    
   previewImage: "", 
   backgroundImage:"/10guylogo.jpg",
-  fontSize: "40",
-  fontColor:"#e7136f",
-  fontName:"14", 
+  fontSize: "50",
+  fontColor:"#ffffff",
+  fontName:"6", 
 };
 
 export const memeReducer = (state = initialState, action:any) => {

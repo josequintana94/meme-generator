@@ -56,31 +56,9 @@ const Meme = ({
             type="textArea"
             placeholder="Down Text"
             onChange={(e) => dispatchContext(MemeAction.SetBottomText,e.target.value)} />
-          <FileUpload
-            btnText="Image Upload (JPG / PNG / GIF)"
-            handleChange={FileUploadChange}
-            className={style.button} />
         </div>
 
         <div className={style.row1col2}>
-          <SelectBox
-            id="size"
-            className={style.input}
-            items={sizeItems}
-            selectedValue={state.fontSize}
-            onChange={(e) => dispatchContext(MemeAction.SetFontSize,e.target.value)} />
-          <SelectBox
-            id="font"
-            className={style.input}
-            items={fontItems}
-            selectedValue={state.fontName}
-            onChange={(e) => dispatchContext(MemeAction.SetFont, e.target.value)} />
-          <TextBox
-            id="color"
-            value={state.fontColor}
-            type="color"
-            onChange={(e) => dispatchContext(MemeAction.SetFontColor, e.target.value)} />
-         
           <Button
             id="downlaod"
             type="button"
