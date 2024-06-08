@@ -12,7 +12,7 @@ const MemeContainer = () => {
   const downloadMomo = async () => {  
     const dataUrl = state.previewImage;   
     const link = document.createElement("a");   
-    link.download = `momo-${Date.now()}.png`;  
+    link.download = `10guy-${Date.now()}.png`;  
     link.href = dataUrl;   
     link.click();
   }; 
