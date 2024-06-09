@@ -23,6 +23,7 @@ module.exports = {
   plugins: ["react", "@typescript-eslint"],
   rules: {
     indent: "off",
+    "object-curly-spacing": [2, "always"],
     "@typescript-eslint/indent": ["error",2],  
     "@typescript-eslint/no-confusing-non-null-assertion": "error",
     "no-empty-function": "off",
