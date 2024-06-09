@@ -1,8 +1,7 @@
 .fooder {
   background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/de414292-746d-4d9e-a4f9-d855f76f5f2e/d3hlbn2-7c2c99fd-410e-4b84-8fa9-08175f2e2023.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RlNDE0MjkyLTc0NmQtNGQ5ZS1hNGY5LWQ4NTVmNzZmNWYyZVwvZDNobGJuMi03YzJjOTlmZC00MTBlLTRiODQtOGZhOS0wODE3NWYyZTIwMjMuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.3SIBGh_niuBm_8JbYGhQbVfv6i7GEB8N2LpFtqQtyME');
-  background-size: cover;    
+  background-size: cover;
   height: 24vh;
-  padding:0;
-  margin:0;
-  }
-  
+  padding: 0;
+  margin: 0;
+}

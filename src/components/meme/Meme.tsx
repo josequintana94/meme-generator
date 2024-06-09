@@ -43,7 +43,28 @@ const Meme = ({
         <div className={style.headerContent}>
           <div className={style.headerText}>
             <h1>$10GUY</h1>
+            <p>Now on Solana</p>
             <p>[10] Guy (also known as "Really High Guy" and "Stoner Stanley") is an advice animal image macro series featuring a photo of a young man who appears to be under the influence of marijuana. The captions typically portray stereotypical stoner behavior, similar to Stoner Dog, such as giving invalid answers to misunderstood questions and craving junk food. In April 2021, UK-based resident Connor Sinclair revealed himself to be the man depicted in 10 Guy after nearly a decade of anonymity.</p>
+            <br></br>
+
+            <button onClick={
+              () => window.open("https://knowyourmeme.com/memes/10-guy", "_blank")
+            }>Pump.Fun</button>
+            <br></br>
+            <br></br>
+
+            <button onClick={
+              () => window.open("https://knowyourmeme.com/memes/10-guy", "_blank")
+            }>Twitter</button>
+            <br></br>
+            <br></br>
+
+            <button onClick={
+              () => window.open("https://knowyourmeme.com/memes/10-guy", "_blank")
+            }>Telegram</button>
+            <br></br>
+            <br></br>
+
           </div>
           <div className={style.headerImage}>
             <img src="/10guylogo.jpg" alt="Meme Header Image" />
@@ -52,6 +73,7 @@ const Meme = ({
       </header>
 
       <div className={style.memeGenerator}>
+        <h1 className={style.sectionTitle}>Meme generator</h1>
         <div className={style.row1}>
 
           <div className={style.row1col1}>
@@ -93,9 +115,9 @@ const Meme = ({
       </div>
 
       <section className={style.gallery}>
-        <h2>Gallery</h2>
+        <h1 className={style.sectionTitle}>History</h1>
         <div className={style.slideGallery}>
-          {/* Add your slide gallery content here */}
+          <iframe className={style.video} width="560" height="315" src="https://www.youtube.com/embed/_bFGfKgsV8I?si=zjZHBaeBrARzFhOt" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </section>
     </div>
