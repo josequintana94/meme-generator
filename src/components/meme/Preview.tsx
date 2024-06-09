@@ -1,36 +1,36 @@
 import React from "react";
 import style from "./Meme.module.css";
-import {fontItems} from "../../data/constants/constants";
-import {IinitialStateProps} from "../../data/interface";
+import { fontItems } from "../../data/constants/constants";
+import { IinitialStateProps } from "../../data/interface";
 
-interface IPreviewProps{ 
-  state:IinitialStateProps
+interface IPreviewProps {
+  state: IinitialStateProps
 }
 
-const  Preview = ({state}:IPreviewProps,ref: React.Ref<HTMLDivElement> | undefined) => {
-  
+const Preview = ({ state }: IPreviewProps, ref: React.Ref<HTMLDivElement> | undefined) => {
+
   const fontName = fontItems.find((item) => item.value == parseInt(state.fontName))?.text;
 
-  return (  
-    <div   
+  return (
+    <div
       ref={ref}
-      className={style.meme}    
-      style={{        
-        fontSize:`${state.fontSize}px`,   
-        fontFamily : `${fontName}`,  
-        color: state.fontColor,              
+      className={style.meme}
+      style={{
+        fontSize: `${state.fontSize}px`,
+        fontFamily: `${fontName}`,
+        color: state.fontColor,
       }}
-    >      
+    >
       <img className={style.meme} src={state.backgroundImage} />
       <div className={`${style.meme_text} ${style.meme_top}`}>
-        {state.topText}         
+        {state.topText}
       </div>
 
       <div className={`${style.meme_text} ${style.meme_bottom}`}>
-        {state.bottomText}          
+        {state.bottomText}
       </div>
-      
-    </div>         
+
+    </div>
   );
 };
 
