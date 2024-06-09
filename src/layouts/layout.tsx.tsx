@@ -2,7 +2,7 @@ import Header from "./header/Header";
 import Fooder from "./fooder/Fooder";
 
 interface ILayoutProps {
-  children? :React.ReactNode;
+  children?: React.ReactNode;
 }
 
 const Layout = (props: ILayoutProps) => {
@@ -12,7 +12,7 @@ const Layout = (props: ILayoutProps) => {
       <main>
         {props.children}
       </main>
-      <Fooder/>
+      <Fooder />
     </>
   );
 };
