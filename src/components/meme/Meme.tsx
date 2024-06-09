@@ -117,7 +117,9 @@ const Meme = ({
       <section className={style.gallery}>
         <h1 className={style.sectionTitle}>History</h1>
         <div className={style.slideGallery}>
-          <iframe className={style.video} src="https://www.youtube.com/embed/_bFGfKgsV8I?si=zjZHBaeBrARzFhOt" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+          <iframe className={style.video} src="https://www.youtube.com/embed/_bFGfKgsV8I?si=zjZHBaeBrARzFhOt"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
         </div>
       </section>
     </div>
