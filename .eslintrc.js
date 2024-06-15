@@ -38,7 +38,6 @@ module.exports = {
     "@typescript-eslint/no-extra-semi": ["error"],
     "@typescript-eslint/no-unnecessary-boolean-literal-compare": ["error"],
     "@typescript-eslint/prefer-enum-initializers": "error",
-    "object-curly-spacing": [2, "always"],
     "@typescript-eslint/object-curly-spacing": ["error"], 
     "linebreak-style": ["off", "unix"],
     "semi": ["error", "always"],

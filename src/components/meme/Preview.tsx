@@ -1,13 +1,13 @@
 import React from "react";
 import style from "./Meme.module.css";
-import { fontItems } from "../../data/constants/constants";
-import { IinitialStateProps } from "../../data/interface";
+import {fontItems} from "../../data/constants/constants";
+import {IinitialStateProps} from "../../data/interface";
 
 interface IPreviewProps {
   state: IinitialStateProps
 }
 
-const Preview = ({ state }: IPreviewProps, ref: React.Ref<HTMLDivElement> | undefined) => {
+const Preview = ({state}: IPreviewProps, ref: React.Ref<HTMLDivElement> | undefined) => {
 
   const fontName = fontItems.find((item) => item.value == parseInt(state.fontName))?.text;
 
