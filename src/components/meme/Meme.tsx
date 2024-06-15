@@ -4,10 +4,10 @@ import TextBox from "../ui/TextBox";
 import SelectBox from "../ui/SelectBox";
 import style from "./Meme.module.css";
 import Preview from "./Preview";
-import { sizeItems, fontItems } from "../../data/constants/constants";
-import { MemeAction } from "../../data/enum";
+import {sizeItems, fontItems} from "../../data/constants/constants";
+import {MemeAction} from "../../data/enum";
 import FileUpload from "../ui/FileUpload";
-import { IinitialStateProps } from "../../data/interface";
+import {IinitialStateProps} from "../../data/interface";
 
 interface IMemeProps {
   state: IinitialStateProps,
