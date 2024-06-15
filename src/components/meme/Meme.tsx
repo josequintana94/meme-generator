@@ -44,7 +44,7 @@ const Meme = ({
           <div className={style.headerText}>
             <h1>$10GUY</h1>
             <p>Now on Solana</p>
-            <p>[10] Guy (also known as "Really High Guy" and "Stoner Stanley") is an advice
+            <p>[10] Guy (also known as &quot;Really High Guy&quot; and &quot;Stoner Stanley&quot;) is an advice
               animal image macro series featuring a photo of a young man who appears to be under the influence of marijuana.
               The captions typically portray stereotypical stoner behavior, similar to Stoner Dog, such as giving invalid answers to misunderstood
               questions and craving junk food. In April 2021, UK-based resident Connor Sinclair revealed himself to be the man depicted in 10 Guy
