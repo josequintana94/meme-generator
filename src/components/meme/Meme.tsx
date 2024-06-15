@@ -58,7 +58,7 @@ const Meme = ({
             <br></br>
 
             <button onClick={
-              () => window.open("https://knowyourmeme.com/memes/10-guy", "_blank")
+              () => window.open("https://x.com/10GUYSolana", "_blank")
             }>Twitter</button>
             <br></br>
             <br></br>
@@ -119,12 +119,14 @@ const Meme = ({
       </div>
 
       <section className={style.gallery}>
-        <h1 className={style.sectionTitle}>History</h1>
+        <h1 className={style.sectionTitle}>Legend</h1>
         <div className={style.slideGallery}>
           <iframe className={style.video} src="https://www.youtube.com/embed/_bFGfKgsV8I?si=zjZHBaeBrARzFhOt"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
         </div>
+        <br></br>
+        <br></br>
         <br></br>
       </section>
     </div>
