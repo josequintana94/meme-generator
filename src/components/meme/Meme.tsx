@@ -52,7 +52,7 @@ const Meme = ({
             <br></br>
 
             <button onClick={
-              () => window.open("https://knowyourmeme.com/memes/10-guy", "_blank")
+              () => window.open("https://pump.fun/7bzfccb4jFt1JXqLAs96fQLrr21S4wCebVg8gADWpump", "_blank")
             }>Pump.Fun</button>
             <br></br>
             <br></br>
