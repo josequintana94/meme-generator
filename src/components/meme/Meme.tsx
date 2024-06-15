@@ -64,7 +64,7 @@ const Meme = ({
             <br></br>
 
             <button onClick={
-              () => window.open("https://knowyourmeme.com/memes/10-guy", "_blank")
+              () => window.open("https://t.me/solana_10guy", "_blank")
             }>Telegram</button>
             <br></br>
             <br></br>
