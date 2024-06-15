@@ -42,7 +42,7 @@ const Meme = ({
       <header className={style.header}>
         <div className={style.headerContent}>
           <div className={style.headerText}>
-            <h1>$10GUY</h1>
+            <h1>10GUY</h1>
             <p>Now on Solana</p>
             <p>[10] Guy (also known as &quot;Really High Guy&quot; and &quot;Stoner Stanley&quot;) is an advice
               animal image macro series featuring a photo of a young man who appears to be under the influence of marijuana.
@@ -125,6 +125,7 @@ const Meme = ({
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
         </div>
+        <br></br>
       </section>
     </div>
   );
